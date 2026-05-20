@@ -42,6 +42,13 @@ keyboards:
           - action: { symbol: { char: "=" } }
             width: { percentage: 0.16 }
             label: { text: "=" }
+            callout:
+              - label: "%"
+                action: { symbol: { char: "%" } }
+              - label: "<"
+                action: { symbol: { char: "<" } }
+              - label: ">"
+                action: { symbol: { char: ">" } }
       - keys:
           - action: { character: { char: "w" } }
             width: { percentage: 0.16 }
@@ -141,14 +148,18 @@ keyboards:
           - action: space
             width: { percentage: 0.226 }
             callout:
-              - label: "，"
-                action: { symbol: { char: "，" } }
-              - label: "。"
-                action: { symbol: { char: "。" } }
               - label: "？"
                 action: { symbol: { char: "？" } }
               - label: "！"
                 action: { symbol: { char: "！" } }
+              - label: "，"
+                action: { symbol: { char: "，" } }
+              - label: "。"
+                action: { symbol: { char: "。" } }
+              - label: "#"
+                action: { symbol: { char: "#" } }
+              - label: "$"
+                action: { symbol: { char: "$" } }
               - label: "@"
                 action: { symbol: { char: "@" } }
           - action: { character: { char: "v" } }
@@ -190,6 +201,13 @@ keyboards:
           - action: { symbol: { char: "=" } }
             width: { percentage: 0.16 }
             label: { text: "=" }
+            callout:
+              - label: "%"
+                action: { symbol: { char: "%" } }
+              - label: "<"
+                action: { symbol: { char: "<" } }
+              - label: ">"
+                action: { symbol: { char: ">" } }
       - keys:
           - action: { symbol: { char: "-" } }
             width: { percentage: 0.16 }
